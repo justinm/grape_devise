@@ -4,8 +4,6 @@ source "https://rubygems.org"
 # Bundler will treat runtime dependencies like base dependencies, and
 # development dependencies will be added by default to the :development group.
 gemspec
-gem 'devise', '~> 3.2'
-gem 'grape', '~> 0.7'
 
 # Declare any dependencies that are still in development here instead of in
 # your gemspec. These might include edge Rails or gems from your path or

@@ -7,16 +7,16 @@ require "grape_devise/version"
 Gem::Specification.new do |s|
   s.name        = "grape_devise"
   s.version     = GrapeDevise::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of GrapeDevise."
-  s.description = "TODO: Description of GrapeDevise."
+  s.authors     = ["Justin McCormick"]
+  s.email       = ["me@justinmccormick.com"]
+  s.homepage    = "http://github.com/justinm/grape_devise"
+  s.summary     = "Adding support for devise authentication in grape applications"
+  s.description = "Adding support for devise authentication in grape applications"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
+  s.add_dependency "devise", "~> 3.2"
+  s.add_dependency "grape", "~> 0.7"
   s.add_dependency "rails", "~> 4.0.2"
-
-  s.add_development_dependency "sqlite3"
 end
