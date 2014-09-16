@@ -1,7 +1,9 @@
 module GrapeDevise
 end
 
-require 'grape'
+require "devise"
+require "grape"
 require "grape_devise/api"
 
-Grape::API.extend GrapeDevise::API
+Devise.helpers << GrapeDevise::API
+Grape::Endpoint.send :include, GrapeDevise::API
