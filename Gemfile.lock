@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    grape_devise (0.0.1)
+    grape_devise (0.1.0)
       devise (~> 3.2)
       grape (~> 0.7)
       rails (~> 4)
@@ -54,10 +54,11 @@ GEM
       descendants_tracker (~> 0.0.1)
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
-    devise (3.3.0)
+    devise (3.4.0)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
       railties (>= 3.2.6, < 5)
+      responders
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
     diff-lcs (1.2.5)
@@ -113,6 +114,8 @@ GEM
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
     rake (10.3.2)
+    responders (1.1.1)
+      railties (>= 3.2, < 4.2)
     rspec (2.99.0)
       rspec-core (~> 2.99.0)
       rspec-expectations (~> 2.99.0)
@@ -168,3 +171,6 @@ DEPENDENCIES
   rspec (~> 2.99.0)
   rspec-rails (~> 2.99.0)
   sqlite3
+
+BUNDLED WITH
+   1.10.6
