@@ -1,4 +1,4 @@
 language: ruby
 rvm:
   - ruby-head
-
+sudo: false
