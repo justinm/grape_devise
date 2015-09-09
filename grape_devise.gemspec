@@ -10,8 +10,11 @@ Gem::Specification.new do |s|
   s.authors     = ["Justin McCormick"]
   s.email       = ["me@justinmccormick.com"]
   s.homepage    = "http://github.com/justinm/grape_devise"
-  s.summary     = "Adding support for devise authentication in grape applications"
-  s.description = "Adding support for devise authentication in grape applications"
+  s.summary     = "Adds support for devise in grape applications"
+  s.description = "This gem provides access to devise helpers inside of "
+                  "Grape applications."
+
+  s.licenses    = [ 'MIT' ]
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE  ", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
