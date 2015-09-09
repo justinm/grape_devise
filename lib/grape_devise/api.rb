@@ -14,7 +14,7 @@ module GrapeDevise::API
           def authenticate_#{mapping}!(opts={})
             opts[:scope] = :#{mapping}
             env["devise.allow_params_authentication"] = true
-            if opts.delete(:force) || current_user.nil?
+            if opts.delete(:force) || current_#{mapping}.nil?
               error!("401 Forbidden", 401) unless warden.authenticate(opts)
             end
           end
