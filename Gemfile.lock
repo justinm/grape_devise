@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    grape_devise (0.1.0)
+    grape_devise (0.1.1)
       devise (~> 3.2)
       grape (~> 0.7)
       rails (~> 4)
