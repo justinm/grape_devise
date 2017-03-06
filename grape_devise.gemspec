@@ -26,7 +26,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency "activerecord-nulldb-adapter", "~> 0.3.1"
   s.add_development_dependency "sqlite3"
 
-  s.add_dependency "devise", "~> 3.2"
+  s.add_dependency "devise", ">= 2.2.8", "< 4"
   s.add_dependency "grape", "~> 0.7"
-  s.add_dependency "rails", "~> 4"
+  s.add_dependency "rails", "> 3.2", "< 5"
 end
